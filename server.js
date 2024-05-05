@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import mongoose from 'mongoose';
-import animalRoutes from './routes/animalRoutes.js';
+import animalRoutes from './animalRoutes.js';
 
 const app = express();
 
